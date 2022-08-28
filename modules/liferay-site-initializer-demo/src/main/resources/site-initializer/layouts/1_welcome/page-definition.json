@@ -1,0 +1,304 @@
+{
+  "pageElement": {
+    "pageElements": [
+      {
+        "definition": {
+          "fragmentStyle": {
+            "borderWidth": "0",
+            "textAlign": ""
+          },
+          "indexed": true,
+          "layout": {
+            "borderWidth": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "marginTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingTop": 0,
+            "widthType": "Fluid"
+          }
+        },
+        "pageElements": [
+          {
+            "definition": {
+              "fragmentStyle": {
+                "textAlign": "",
+                "textColor": "brandColor1"
+              },
+              "gutters": true,
+              "indexed": true,
+              "modulesPerRow": 3,
+              "numberOfColumns": 3,
+              "reverseOrder": false,
+              "rowViewports": [
+                {
+                  "id": "landscapeMobile",
+                  "rowViewportDefinition": {
+                    "modulesPerRow": 1
+                  }
+                },
+                {
+                  "id": "portraitMobile",
+                  "rowViewportDefinition": {}
+                },
+                {
+                  "id": "tablet",
+                  "rowViewportDefinition": {}
+                }
+              ],
+              "verticalAlignment": "top"
+            },
+            "pageElements": [
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 3
+                },
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 6
+                },
+                "pageElements": [
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-heading"
+                      },
+                      "fragmentConfig": {
+                        "headingLevel": "h1"
+                      },
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "Welcome to the Learning Center"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "marginTop": "3",
+                        "textAlign": "center",
+                        "textColor": "brandColor1"
+                      },
+                      "indexed": true
+                    },
+                    "type": "Fragment"
+                  },
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-paragraph"
+                      },
+                      "fragmentConfig": {},
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra metus vitae diam sagittis dignissim. Donec aliquet ornare aliquet. Nunc auctor sem purus, sit amet tempor metus blandit in. Sed quis convallis dolor. Praesent tristique tellus in mi cursus, non tincidunt est mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus ante vel eleifend tristique. Etiam sit amet pretium libero, in ullamcorper magna. Nullam bibendum, mi rhoncus lobortis consectetur, nibh enim varius lorem, et tempor lectus sapien ut sapien. Sed ac convallis augue. Vivamus eu dolor vel tellus ultricies molestie. Phasellus vel porttitor magna, non tristique elit. Proin molestie, lorem eu laoreet vehicula, enim libero lobortis dui, sodales mattis nisl felis id sem. Integer nec rutrum risus. Aliquam gravida venenatis enim, ut aliquet lorem laoreet sit amet. Etiam quam sem, hendrerit non pellentesque quis, pretium at elit.</p>\n"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "marginTop": "4",
+                        "textAlign": ""
+                      },
+                      "indexed": true
+                    },
+                    "type": "Fragment"
+                  },
+                  {
+                    "definition": {
+                      "fragment": {
+                        "key": "BASIC_COMPONENT-heading"
+                      },
+                      "fragmentConfig": {
+                        "headingLevel": "h3"
+                      },
+                      "fragmentFields": [
+                        {
+                          "id": "element-text",
+                          "value": {
+                            "fragmentLink": {},
+                            "text": {
+                              "value_i18n": {
+                                "en_US": "What are you looking for?"
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "fragmentStyle": {
+                        "textAlign": "",
+                        "textColor": "brandColor4"
+                      },
+                      "indexed": true
+                    },
+                    "type": "Fragment"
+                  },
+                  {
+                    "definition": {
+                      "widgetInstance": {
+                        "widgetConfig": {
+                          "federatedSearchKey": "",
+                          "suggestionsContributorConfigurations": "{\"contributorName\":\"basic\",\"displayGroupName\":\"suggestions\",\"size\":5}",
+                          "showStagedResults": "false",
+                          "searchScope": "this-site",
+                          "suggestionsEnabled": "true",
+                          "destination": "/search",
+                          "invisible": "false",
+                          "suggestionsDisplayThreshold": "2",
+                          "displayStyle": "default",
+                          "scopeParameterName": "scope",
+                          "keywordsParameterName": "q",
+                          "useAdvancedSearchSyntax": "false"
+                        },
+                        "widgetName": "com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet"
+                      }
+                    },
+                    "type": "Widget"
+                  },
+                  {
+                    "definition": {
+                      "fragmentStyle": {
+                        "borderWidth": "0",
+                        "marginTop": "3",
+                        "textAlign": "center"
+                      },
+                      "indexed": true,
+                      "layout": {
+                        "borderWidth": 0,
+                        "marginBottom": 0,
+                        "marginLeft": 0,
+                        "marginRight": 0,
+                        "marginTop": 1,
+                        "paddingBottom": 0,
+                        "paddingLeft": 0,
+                        "paddingRight": 0,
+                        "paddingTop": 0,
+                        "widthType": "Fluid"
+                      }
+                    },
+                    "pageElements": [
+                      {
+                        "definition": {
+                          "fragment": {
+                            "key": "BASIC_COMPONENT-button"
+                          },
+                          "fragmentConfig": {
+                            "buttonType": "primary",
+                            "buttonSize": "nm"
+                          },
+                          "fragmentFields": [
+                            {
+                              "id": "link",
+                              "value": {
+                                "fragmentLink": {
+                                  "value": {
+                                    "href": {
+                                      "value_i18n": {
+                                        "en_US": "/web/learning-center/home"
+                                      }
+                                    }
+                                  }
+                                },
+                                "text": {
+                                  "value_i18n": {
+                                    "en_US": "Discover More"
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "indexed": true
+                        },
+                        "type": "Fragment"
+                      }
+                    ],
+                    "type": "Section"
+                  }
+                ],
+                "type": "Column"
+              },
+              {
+                "definition": {
+                  "columnViewports": [
+                    {
+                      "columnViewportDefinition": {
+                        "size": 12
+                      },
+                      "id": "landscapeMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "portraitMobile"
+                    },
+                    {
+                      "columnViewportDefinition": {},
+                      "id": "tablet"
+                    }
+                  ],
+                  "size": 3
+                },
+                "type": "Column"
+              }
+            ],
+            "type": "Row"
+          }
+        ],
+        "type": "Section"
+      }
+    ],
+    "type": "Root"
+  },
+  "settings": {
+    "masterPage": {
+      "key": "LC_DEFAULT"
+    }
+  }
+}

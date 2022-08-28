@@ -1,0 +1,6 @@
+Bundle-Name: Liferay Site Initializer Demo
+Bundle-SymbolicName: com.liferay.site.initializer.demo
+Bundle-Version: 1.0.0
+Liferay-Site-Initializer-Name: Learning Center
+Provide-Capability: liferay.site.initializer
+Web-ContextPath: /liferay-site-initializer-demo

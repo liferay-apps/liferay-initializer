@@ -1,0 +1,18 @@
+{
+	"hidden": false,
+	"private": false,
+	"name_i18n": {
+		"en_US": "Home"
+	},
+	"friendlyURL_i18n": {
+		"en_US": "/home"
+	},
+	"system": false,
+	"type": "Content",
+	"typeSettings": [
+		{
+			"key": "collectionType",
+			"value": "com.liferay.item.selector.criteria.InfoListItemSelectorReturnType"
+		}
+	]
+}

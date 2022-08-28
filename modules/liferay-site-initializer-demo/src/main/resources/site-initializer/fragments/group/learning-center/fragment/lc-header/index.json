@@ -1,0 +1,22 @@
+{
+  "fieldSets": [
+    {
+      "fields": [
+        {
+          "name": "showLanguage",
+          "label": "Show Language",
+          "description": "Show Language Widget",
+          "type": "checkbox",
+          "defaultValue": true
+        },
+        {
+          "name": "showPersonalBar",
+          "label": "Show Personal Bar",
+          "description": "Show Personal Bar Widget",
+          "type": "checkbox",
+          "defaultValue": true
+        }
+      ]
+    }
+  ]
+}

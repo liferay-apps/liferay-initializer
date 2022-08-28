@@ -1,0 +1,13 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{"definition":{"fragmentStyle":{"marginBottom":"3","marginLeft":"3","marginRight":"3","marginTop":"3"},"indexed":true,"layout":{"borderWidth":0,"marginBottom":1,"marginLeft":1,"marginRight":1,"marginTop":1,"paddingBottom":0,"paddingLeft":0,"paddingRight":0,"paddingTop":0,"widthType":"Fluid"}},"pageElements":[{"definition":{"gutters":true,"indexed":true,"modulesPerRow":2,"numberOfColumns":2,"reverseOrder":false,"rowViewports":[{"id":"landscapeMobile","rowViewportDefinition":{"modulesPerRow":1}},{"id":"portraitMobile","rowViewportDefinition":{}},{"id":"tablet","rowViewportDefinition":{}}],"verticalAlignment":"top"},"pageElements":[{"definition":{"columnViewports":[{"columnViewportDefinition":{"size":12},"id":"landscapeMobile"},{"columnViewportDefinition":{},"id":"portraitMobile"},{"columnViewportDefinition":{},"id":"tablet"}],"size":3},"pageElements":[{"definition":{"widgetInstance":{"widgetConfig":{},"widgetName":"com_liferay_portal_search_web_search_bar_portlet_SearchBarPortlet"}},"type":"Widget"}],"type":"Column"},{"definition":{"columnViewports":[{"columnViewportDefinition":{"size":12},"id":"landscapeMobile"},{"columnViewportDefinition":{},"id":"portraitMobile"},{"columnViewportDefinition":{},"id":"tablet"}],"size":9},"pageElements":[{"definition":{"widgetInstance":{"widgetConfig":{},"widgetName":"com_liferay_portal_search_web_search_results_portlet_SearchResultsPortlet"}},"type":"Widget"}],"type":"Column"}],"type":"Row"}],"type":"Section"}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "LC_DEFAULT"
+		}
+	}
+}

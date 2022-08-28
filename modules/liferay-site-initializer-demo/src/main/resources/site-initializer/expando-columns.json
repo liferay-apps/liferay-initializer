@@ -1,0 +1,7 @@
+[
+  {
+    "dataType": 15,
+    "modelResource": "com.liferay.portal.kernel.model.Layout",
+    "name": "Icon URL"
+  }
+]

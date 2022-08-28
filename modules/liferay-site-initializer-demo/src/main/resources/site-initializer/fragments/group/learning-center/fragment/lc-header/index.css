@@ -1,0 +1,9 @@
+#header .page-editor__no-fragments-state {
+    padding: 1vh !important;
+}
+
+#header a {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+}

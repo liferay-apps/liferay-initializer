@@ -1,0 +1,6 @@
+{
+	"className": "com.liferay.portal.kernel.theme.NavItem",
+	"ddmTemplateKey": "CHAPTER_NAV",
+	"name": "Chapters Navigation",
+	"resourceClassName": "com.liferay.portlet.display.template.PortletDisplayTemplate"
+}

@@ -1,0 +1,1 @@
+console.log('liferay-site-initializer-demo...');

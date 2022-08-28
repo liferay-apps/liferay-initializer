@@ -1,0 +1,36 @@
+<div id="header" class="d-flex justify-content-between py-2 mx-2 mx-2">
+	<div class="d-flex justify-content-start">
+		<!-- Logo and Header-->
+		<a href="/web/learning-center">
+			<img alt="LC Logo" class="h-75"
+				 src="[resources:lc-logo.svg]"
+				 data-lfr-editable-type="image"
+				 data-lfr-editable-id="lc-logo"
+			/>
+			<h2 data-lfr-editable-type="rich-text" class="px-2"
+				data-lfr-editable-id="lc-header">
+				Learning Center
+			</h2>
+		</a>
+	</div>
+	<div class="d-flex justify-content-end">
+		<div class="px-2">
+			<!-- Navigation and Search -->
+			<lfr-drop-zone></lfr-drop-zone>
+		</div>
+		<div class="px-2">
+			<!-- Language Switch -->
+			[#if configuration.showLanguage]
+			[@liferay_portlet["runtime"]
+			portletName="com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"/]
+			[/#if]
+		</div>
+		<div class="px-2">
+			<!-- User Account -->
+			[#if configuration.showPersonalBar]
+			[@liferay_portlet["runtime"]
+			portletName="com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet"/]
+			[/#if]
+		</div>
+	</div>
+</div>

@@ -1,0 +1,86 @@
+{
+	"pageElement": {
+		"pageElements": [
+			{
+				"definition": {
+					"indexed": true,
+					"layout": {
+						"borderWidth": 0,
+						"marginBottom": 0,
+						"marginLeft": 0,
+						"marginRight": 0,
+						"marginTop": 0,
+						"paddingBottom": 0,
+						"paddingLeft": 0,
+						"paddingRight": 0,
+						"paddingTop": 0,
+						"widthType": "Fluid"
+					}
+				},
+				"pageElements": [
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-heading"
+							},
+							"fragmentConfig": {
+								"headingLevel": "h1"
+							},
+							"fragmentFields": [
+								{
+									"id": "element-text",
+									"value": {
+										"fragmentLink": {},
+										"text": {
+											"value_i18n": {
+												"en_US": "Creating First Site"
+											}
+										}
+									}
+								}
+							],
+							"fragmentStyle": {
+								"textColor": "brandColor1"
+							},
+							"indexed": true
+						},
+						"type": "Fragment"
+					},
+					{
+						"definition": {
+							"fragment": {
+								"key": "BASIC_COMPONENT-paragraph"
+							},
+							"fragmentConfig": {},
+							"fragmentFields": [
+								{
+									"id": "element-text",
+									"value": {
+										"fragmentLink": {},
+										"text": {
+											"value_i18n": {
+												"en_US": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra metus vitae diam sagittis dignissim. Donec aliquet ornare aliquet. Nunc auctor sem purus, sit amet tempor metus blandit in. Sed quis convallis dolor. Praesent tristique tellus in mi cursus, non tincidunt est mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus ante vel eleifend tristique. Etiam sit amet pretium libero, in ullamcorper magna. Nullam bibendum, mi rhoncus lobortis consectetur, nibh enim varius lorem, et tempor lectus sapien ut sapien. Sed ac convallis augue. Vivamus eu dolor vel tellus ultricies molestie. Phasellus vel porttitor magna, non tristique elit. Proin molestie, lorem eu laoreet vehicula, enim libero lobortis dui, sodales mattis nisl felis id sem. Integer nec rutrum risus. Aliquam gravida venenatis enim, ut aliquet lorem laoreet sit amet. Etiam quam sem, hendrerit non pellentesque quis, pretium at elit.</p>\n\n<p>In sollicitudin turpis a odio scelerisque, non cursus ipsum sodales. Ut mattis, arcu at tristique finibus, lorem dui aliquet mi, nec sagittis metus diam sed nibh. In nec tortor dolor. Nullam in posuere ex, in posuere metus. Nulla sit amet luctus sem, sit amet bibendum massa. Vestibulum hendrerit nisi leo, quis rhoncus risus sagittis sed. Nullam elementum dui eu iaculis finibus. Sed viverra risus lorem, non hendrerit odio semper at. Sed sed congue purus. Donec egestas aliquam erat, at tristique felis consectetur eu. Vestibulum et erat libero. Duis scelerisque, nibh a rutrum consequat, felis tortor dictum nunc, et posuere tortor est sed arcu. Maecenas placerat vel nunc sit amet porta. Suspendisse in est eleifend felis tincidunt hendrerit semper a felis. Maecenas non suscipit metus, a ullamcorper erat. Fusce est enim, sodales a elementum ut, scelerisque non eros.</p>\n"
+											}
+										}
+									}
+								}
+							],
+							"fragmentStyle": {
+								"marginTop": "3"
+							},
+							"indexed": true
+						},
+						"type": "Fragment"
+					}
+				],
+				"type": "Section"
+			}
+		],
+		"type": "Root"
+	},
+	"settings": {
+		"masterPage": {
+			"key": "LC_LEFT_NAV"
+		}
+	}
+}

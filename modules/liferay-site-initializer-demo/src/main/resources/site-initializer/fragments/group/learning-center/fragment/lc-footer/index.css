@@ -1,0 +1,13 @@
+#footer .page-editor__no-fragments-state {
+    padding: 1vh !important;
+}
+
+#footer a {
+    font-weight: normal;
+    color: inherit;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    font-weight: bold;
+}
